@@ -1,0 +1,234 @@
+.middlediv {
+  width: 100%;
+  height: 130vh;
+  position: relative;
+  top: -250px;
+  /* border: 2px solid red; */
+  z-index: 2;
+  background-color: rgb(249, 248, 248);
+}
+
+.middlediv article {
+  display: flex;
+  justify-content: space-between;
+  /* border: 2px solid red; */
+}
+
+/* left middle div */
+.left {
+  display: flex;
+  flex-direction: column;
+  row-gap: 50px;
+  padding-left: 200px;
+  padding-top: 80px;
+  width: 40%;
+  height: 100vh;
+  /* border: 2px solid red; */
+}
+
+.leftid h1 {
+  color: grey;
+}
+.leftid p {
+  font-size: 20px;
+  color: rgb(75, 71, 71);
+}
+
+.liststyle {
+  display: flex;
+}
+
+.liststyle ul {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+.liststyle ul i {
+  font-size: 20px;
+  color: orange;
+}
+
+.liststyle .paraicon {
+  gap: 8px;
+  display: flex;
+  list-style: none;
+}
+
+.right {
+  /* padding: 20px; */
+  display: flex;
+  justify-content: space-evenly;
+  height: 110vh;
+  width: 60%;
+  /* border: 2px solid green; */
+}
+
+.rightid {
+  border-radius: 5px 5px 5px 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 28%;
+  /* border: 2px solid red; */
+}
+
+.rightid1 {
+  color: rgb(208, 204, 204);
+  box-shadow: 2px 2px 2px 2px;
+  border-radius: 5px 5px 5px 5px;
+  height: 48%;
+
+  /* border: 2px solid yellow; */
+}
+.rightid1 h1 {
+  padding: 6px;
+  color: black;
+  font-size: 28px;
+}
+.rightid1 p {
+  padding: 6px;
+  color: black;
+  font-size: 14px;
+}
+
+.rightid1 img {
+  border-radius: 5px 5px 5px 5px;
+  height: 152px;
+  width: 254px;
+}
+.rightid1 a {
+  padding: 8px;
+  display: flex;
+  column-gap: 5px;
+  text-decoration: none;
+  color: orange;
+}
+.rightid1 a:hover {
+  color: black;
+}
+#testing {
+  position: relative;
+  top: -100px;
+}
+
+#consulting {
+  position: relative;
+  top: -60px;
+}
+
+#software {
+  left: 40px;
+  position: relative;
+  top: -40px;
+}
+
+#elevate {
+  left: 40px;
+  position: relative;
+  top: -3px;
+}
+
+/* section img important */
+#sectionimg {
+  z-index: -1;
+  position: relative;
+  top: -50px;
+  width: 100vw;
+  height: 200px;
+  /* background-color: grey; */
+}
+
+.myvid {
+  height: 70vh;
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: space-between;
+}
+.myvid .myvid1 {
+  padding-left: 68px;
+  padding-top: 58px;
+  width: 60%;
+  /* border: 2px solid rgb(169, 163, 163); */
+}
+.myvid .myvid2 {
+  padding-left: 68px;
+  padding-top: 58px;
+  width: 40%;
+  /* border: 2px solid green; */
+}
+.youtube {
+  /* border: 2px solid red; */
+  height: 410px;
+  width: 90%;
+}
+
+.youtube video {
+  height: 380px;
+  width: 100%;
+}
+
+.myvid2 .youtubehead {
+  padding: 49px;
+  /* color: rgb(161, 150, 150); */
+  background-color: white;
+  height: 410px;
+  width: 90%;
+}
+.myvid2 .youtubehead h1 {
+  padding-left: 15px;
+  font-size: 35px;
+  color: rgb(212, 101, 9);
+}
+.myvid2 .youtubehead p {
+  font-size: 18px;
+  color: black;
+}
+
+.content {
+  position: relative;
+  /* border: 2px solid red; */
+  background-color: white;
+  width: 100vw;
+  height: 80vh;
+}
+.content #img10 {
+  top: 8rem;
+  position: absolute;
+  left: -15rem;
+}
+.content h1 {
+  font-size: 40px;
+  padding-top: 30px;
+  padding-left: 35%;
+  color: black;
+}
+.content h2 {
+  padding-left: 10%;
+  font-size: 40px;
+  color: black;
+}
+.content1 {
+  padding-left: 80px;
+  display: flex;
+  height: 60vh;
+}
+
+.content1 .activity {
+  display: flex;
+  flex-direction: column;
+  width: 24%;
+}
+.content1 .activity h2 {
+  font-size: 30px;
+}
+.content1 .activity h1 {
+  padding-left: 40px;
+  font-size: 50px;
+}
+
+.content1 .activity img {
+  padding-top: 20px;
+  padding-left: 100px;
+  height: 150px;
+  width: 250px;
+}

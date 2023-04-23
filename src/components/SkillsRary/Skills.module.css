@@ -1,0 +1,116 @@
+.mysection3 {
+  /* border: 2px solid red; */
+  height: 100vh;
+  width: 100%;
+}
+
+.myarticle3 {
+  /* border: 2px solid green; */
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("../footer//images1/images/BF_portfolio_01.jpeg");
+  background-origin: inherit;
+}
+.myarticle3 img {
+  z-index: 2;
+  position: absolute;
+  top: 12rem;
+  left: 7rem;
+  animation: imageanimation 10s linear infinite;
+}
+
+@keyframes imageanimation {
+  0% {
+    top: 12rem;
+  }
+  100% {
+    top: 8rem;
+  }
+}
+.paradiv {
+  height: 10rem;
+  width: 700px;
+  padding: 10px;
+  /* border: 2px solid red; */
+  position: absolute;
+  top: 20rem;
+  left: 8rem;
+}
+.paradiv h1 {
+  padding: 0;
+  font-weight: bold;
+  font-size: 50px;
+}
+.paradiv p {
+  padding: 0;
+  font-size: 20px;
+}
+
+.image2 {
+  /* border: 2px solid red; */
+    /* background-color:  rgb(249, 248, 248); */
+  position: absolute;
+  left: -27rem;
+  top: 38rem;
+}
+
+.maindiv {
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: relative;
+  /* border: 2px solid red; */
+  height: 90vh;
+  width: 100%;
+  top: 20px;
+}
+.video {
+  border: 2px solid green;
+  height: 60vh;
+  width: 40%;
+}
+.content {
+  gap: 10px;
+  height: 80vh;
+  width: 40%;
+  /* border: 2px solid yellow; */
+}
+.content p {
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 0;
+  font-size: 17px;
+  color: rgb(64, 63, 63);
+}
+.readmorebtn {
+  padding-left: 9rem;
+  top: 10px;
+  position: relative;
+  /* border: 2px solid red; */
+  border-bottom: 2px solid grey;
+  height: 120px;
+
+  /* background-color:  rgb(249, 248, 248); */
+}
+.btn {
+  background-color: black;
+  padding-top: 25px;
+  text-align: center;
+  font-size: 17px;
+  /* border: 2px solid red; */
+  height: 70px;
+  width: 280px;
+  border-radius: 50px;
+}
+.btn a {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  gap: 10px;
+  text-decoration: none;
+}
+.btn:hover {
+  position: relative;
+  top: -2px;
+}

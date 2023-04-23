@@ -1,0 +1,148 @@
+.cardmain2 {
+  background-color: white;
+  /* border: 2px solid red; */
+  height: 80vh;
+  width: 100%;
+  position: relative;
+  top: -35px;
+}
+
+.head {
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 40rem;
+  font-weight: bold;
+  font-size: 50px;
+  /* border: 2px solid rgb(43, 41, 41); */
+}
+
+.cardhead {
+  padding-top: 40px;
+  gap: 50px;
+  padding-left: 270px;
+  display: flex;
+  height: 63vh;
+  /* border: 2px solid rgb(59, 187, 19); */
+}
+
+.carddiv {
+  border-radius: 11px;
+  /* border: 2px solid black; */
+  height: 480px;
+  width: 25%;
+}
+
+.carddiv {
+  box-shadow: 1px 1px 1px 1px rgb(208, 204, 204);
+}
+.carddiv:hover {
+  background-repeat: no-repeat;
+  box-shadow: 2px 2px 2px 2px rgb(208, 204, 204);
+  transform: scale(0.8);
+  transition: 1s ease;
+}
+.carddiv img {
+  border-radius: 10px;
+  height: 200px;
+  width: 100%;
+}
+.carddiv p {
+  padding-left: 20px;
+  color: black;
+  font-size: 15px;
+}
+.carddiv #link {
+  text-decoration: none;
+}
+
+.carddiv #link h1 {
+  padding-top: 10px;
+  padding-left: 20px;
+  color: black;
+  font-size: 30px;
+  font-weight: bold;
+}
+.carddiv #link h1:hover {
+  color: rgb(215, 135, 16);
+}
+
+#arrow {
+  align-items: center;
+  padding-top: 19px;
+  display: flex;
+  gap: 10px;
+}
+#arrow {
+  padding-left: 19px;
+  text-decoration: none;
+  color: black;
+}
+#arrow:hover {
+  color: rgb(215, 135, 16);
+}
+
+#imggg {
+  height: 300px;
+}
+
+.readmore {
+  z-index: 2;
+  top: -5px;
+  position: relative;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  /* border: 2px solid red; */
+}
+.readmore #btn1 {
+  border-color: #ed7501;
+  box-shadow: 0 0 0 0 #ed7501 inset;
+  color: #ed7501;
+  background-color: transparent;
+  border-radius: 25px;
+  font-size: 15px;
+  height: 55px;
+  width: 200px;
+}
+
+.readmore #btn1:hover {
+  background-color: #ea751c;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.enable {
+
+  background-color: white;
+  font-weight: bold;
+  padding-left: 15rem;
+  /* border: 2px solid red; */
+   padding-bottom: 160px;
+}
+.enable #para {
+  padding-left: 6rem;
+}
+
+.enable p {
+   position: relative;
+   z-index: 1;
+  font-size: 40px;
+  color: #ed7501;
+}
+
+#image4 {
+  background-color:#f8f5f5;
+  /* height: 70vh; */
+  width: 100%;
+  position: relative;
+  /* border: 3px solid red; */
+}
+
+#image4 img{
+  color:hsl(0, 17%, 94%);
+  position: absolute;
+  top: -290px;
+  width: 100%;
+}

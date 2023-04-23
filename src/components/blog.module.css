@@ -1,0 +1,106 @@
+.mysection {
+  padding-left: 160px;
+  height: 100vh;
+  width: 100%;
+  /* border: 2px solid red; */
+}
+
+.myarticle {
+  /* padding-left: 40px; */
+  height: 90vh;
+  width: 100%;
+  /* border: 3px solid green; */
+}
+
+.imgdiv {
+  display: flex;
+  justify-content: center;
+  /* border: 5px solid yellow; */
+  height: 90vh;
+  width: 90%;
+}
+.image {
+  height: 87vh;
+  width: 100%;
+}
+
+.blogpara {
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  /* align-items: center; */
+  font-size: 19px;
+  gap: 40px;
+  display: flex;
+  height: 70px;
+  width: 600px;
+  /* border: 2px solid red; */
+}
+.blogpara a {
+  text-decoration: none;
+}
+.blogpara ul {
+  font-size: 19px;
+  gap: 30px;
+  display: flex;
+}
+.blogpara ul li {
+  list-style: none;
+}
+.blogpara ul li a {
+  text-decoration: none;
+  color: black;
+}
+#testing {
+  color: #ed7501;
+}
+#testing:hover {
+  color: grey;
+}
+
+.bloglast {
+  /* border: 2px solid red; */
+  height: 200px;
+  width: 90%;
+}
+.heading {
+  /* border: 2px solid green; */
+  height: 40px;
+}
+.heading h1 {
+  font-size: 30px;
+  color: black;
+}
+.paragraph {
+  /* border: 2px solid green; */
+  height: 70px;
+}
+.paragraph p {
+  padding: 0;
+  font-size: 17px;
+  color: rgb(63, 61, 61);
+  padding-top: 20px;
+}
+.readmore {
+  padding-top: 40px;
+  padding-left: 1100px;
+  font-size: 15px;
+}
+
+.readmore a {
+  color: rgb(63, 61, 61);
+  text-decoration: none;
+}
+.readmore a:hover{
+color:#ed7501;
+}
+.readmore a i{
+    font-size: 20px;
+}
+
+.footer{
+    top: 70rem;
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    /* border: 2px solid red; */
+}

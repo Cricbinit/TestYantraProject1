@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.myhome {
+  background: url(../images1/images/background_03.jpg);
+  background-size: cover;
+  width: 100%;
+  position: relative;
+  height: 100vh;
+  /* background-color: grey; */
+}
+
+#image2 {
+  position: relative;
+  top: -400px;
+  left: 100px;
+  z-index: 2;
+}
+#image3 {
+  position: relative;
+  top: -270px;
+  left: 730px;
+  z-index: 2;
+}
+#image4 {
+  position: relative;
+  top: 50px;
+  left: -700px;
+  z-index: 3;
+}
+#image6 {
+  position: relative;
+  top: -520px;
+  height: 70vh;
+  z-index: 1;
+  width: 100%;
+}
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: 50px;
+}
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: white;
+  font-size: 100px;
+}
+p {
+  padding-top: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  color: white;
+  padding-left: 25px;
+}
+
+header {
+  padding-left: 500px;
+  padding-top: 60px;
+}
+header h2 {
+  padding-left: 90px;
+}
+
+#image2 {
+  position: relative;
+  top: -400px;
+  left: 200px;
+  animation: imageanimation 5s linear infinite;
+}
+@keyframes imageanimation {
+  0% {
+    top: -300px;
+  }
+  100% {
+    top: -320px;
+  }
+}
+#image3 {
+  position: relative;
+  top: -400px;
+  left: 700px;
+  animation: imageanimation 5s linear infinite;
+}
+@keyframes imageanimation {
+  0% {
+    top: -300px;
+  }
+  100% {
+    top: -320px;
+  }
+}
